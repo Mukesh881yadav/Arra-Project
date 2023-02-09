@@ -1,0 +1,49 @@
+.communitynav ul{
+    display:flex;
+    /* justify-content: space-evenly */
+}
+.communitynav ul li,a{
+list-style: none;
+text-decoration: none;
+color: #BCBCBC;
+}
+.communitynav{
+   padding-top: 20px;
+   padding-bottom: 5px;
+    border-bottom: 1px solid #f8f5f5;
+}
+.communitynav ul li{
+    margin-left: 70px;
+}
+.communitynavsearch{
+margin-left: 70px;
+width: 90%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 0px;
+}
+.communitynavsearch span{
+    width: 80%;
+}
+.communitynavsearch span input{
+    width:100%;
+    border-radius: 10px;
+    border: 1px solid #8FF129;
+}
+#commselect{
+width: 20%;
+border: none;
+color: gray;
+font-size: 14px;
+}
+#togglebtn{
+    width: 14%;
+    color: gray;
+    font-size: 14px;
+    
+}
+#flexSwitchCheckChecked{
+    background-color: #F4F4F5;
+    border: 1px solid #F4F4F5;
+}

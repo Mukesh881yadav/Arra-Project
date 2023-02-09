@@ -1,0 +1,24 @@
+
+#sidebarparent-content{
+    border-right: 1px solid #DEDFE2;
+    padding: 30px;
+    width: 23%;
+}
+#araa-logo img{
+    height:61px;
+}
+#sidebardata li{
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+#sidebardata li a{  
+   text-decoration:none;
+   font-family: 'Roboto', sans-serif;
+   color: #000;
+}
+#sidebardata li a img{
+    width: 14px;
+}
+.text-link{
+    margin-left: 20px;
+}

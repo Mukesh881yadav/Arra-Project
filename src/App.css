@@ -1,3 +1,4 @@
+@import "./asset/css/Navbar.css";
 .App {
   text-align: center;
 }
@@ -27,6 +28,9 @@
 .App-link {
   color: #61dafb;
 }
+.rightsidedata{
+  width: calc(100vw - 100px);
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +40,4 @@
     transform: rotate(360deg);
   }
 }
+

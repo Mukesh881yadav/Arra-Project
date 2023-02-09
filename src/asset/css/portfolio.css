@@ -1,0 +1,21 @@
+.portfolio-content{
+    border: 1px solid gray;
+    /* width: 50%; */
+    border-radius: 10px;
+    /* height: 88%; */
+}
+.portfolio-container img{
+    width: 100%;
+}
+.Portfolio-year p{
+    margin-right: 20px;
+}
+.portfoliodata h1{
+    font-size: 50px ;
+}
+.portfoliodata p{
+    font-size: 23px ;
+}
+.Portfolio-year p{
+   color:#707070;
+}

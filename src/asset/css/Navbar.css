@@ -1,0 +1,29 @@
+.mainnavbar{
+    border-bottom: 1px solid #DEDFE2;
+}
+#navbarleftcontent  li{
+    border: 1px solid #DEDFE2;
+    border-radius: 17px;
+    margin-right: 10px;
+
+}
+#navbarleftcontent  li a{
+    color: #000;
+}
+#navbarleftcontent  li a:hover{
+    background-color:#000;
+    color: #8FF129;
+    border-radius: 17px;
+}
+
+#navprofile-info li a img{
+ height:40px;
+}
+#navbarrightbutton li{
+background-color:#8FF129;
+border-radius: 30px;
+}
+#navbarrightbutton li a{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}

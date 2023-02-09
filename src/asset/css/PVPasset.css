@@ -1,0 +1,37 @@
+.physicalAsset{
+    background-color:#C7BCDD;
+    border-radius: 20px;
+}
+.VirtualDigitalAssets{
+    background-color:#FFEFBD;
+    border-radius: 20px;
+}
+.PhyrtualHybridAssets{
+    background-color:#C3FCCE;
+    border-radius: 20px;
+}
+.card-titlefirst{
+    color:#000;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.card-titlesecond{
+   color: #fff;
+   font-size: 14px;
+   font-family: 'Roboto', sans-serif;
+}
+.chanee{
+    color:#92ED35;
+}
+.assetHeading{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.physicalAssetinsidetitle{
+    font-size:17px;
+    font-family: 'Roboto', sans-serif;
+}
+.physicaltitleTransaction{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}

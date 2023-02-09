@@ -1,0 +1,42 @@
+#topstoriesimg img{
+    height: 117px;
+}
+#topstories{
+    /* border: 1px solid gray; */
+    border-radius: 20px;
+    margin-top: 7%;
+}
+.topstoriesleft div{
+   
+}
+.topstoriesleft img{
+    width: 551px;
+    height: 143px;
+    border-radius: 20px 0px 0px 20px;
+}
+.topstriesnews{
+    font-size: 14px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.topstriesdate{
+    font-size: 14px;
+    color:#707070;
+    font-family: 'Roboto', sans-serif;
+}
+.topstoriespara{
+    color: #DEDFE2;
+}
+.topstoriesright{
+    padding-top: 20px;
+    padding-left: 13px;
+    border: 1px solid gray;
+    border-radius: 0px 20px 20px 0px;
+}
+.portfoliotable,th{
+    background-color: #FFEFBD;
+}
+.files input{
+  border-radius: 30px;
+  border: 1px solid gray;
+}

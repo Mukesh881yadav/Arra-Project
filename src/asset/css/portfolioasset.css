@@ -1,0 +1,17 @@
+.portfolioAssetdata{
+    /* width: 55%; */
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    height:127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.portfolioAssetdatabottom p{
+    font-size: 14px;
+}
+.portfolioAssetdata{
+    background-color: #C3FCCE;
+    margin: 0px 26px 24px 0px;
+}
