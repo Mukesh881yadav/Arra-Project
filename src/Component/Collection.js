@@ -56,6 +56,21 @@ const collection=[
     }
 ]
 
+
+const platform=[
+    {
+        title:"PLATFORM",
+        type:'platform',
+        id:1,
+        values:[
+            {code:"collection1",colname:"colletion1"},
+            {code:"collection2",colname:"colletion2"},
+            {code:"collection1",colname:"colletion1"},
+            {code:"collection2",colname:"colletion2"}
+        ]
+    }
+]
+
 const badges=[
     {title:'parity',
      type:"badge",
@@ -84,21 +99,13 @@ const badges=[
      values:[{common:"Common5"},]
     }
 ]
-    
-
-
-
-
 
   return (
    
    <>
-<div>
+<div className='collection-parent'>
    <div className='colletion-data d-flex'>
-    
    {
- 
-    
     collection.map((element,i)=>{
              
       const coldata=[...element.values]
@@ -109,15 +116,12 @@ const badges=[
         return  <div className='ms-3' key={i}>
         <p className='m-0'>{element.title}</p>
         <select id='collselect' class="form-select" aria-label="Default select example">
-            {
-            
+            {       
+
  coldata.map((el)=>{
    return <option selected >{el.code}</option>
- })
-               
-            }
-
-
+ })        
+     }
 </select>
 </div>
       }
@@ -129,24 +133,37 @@ const badges=[
    </div>
    <div className='parity-data'>
    <ul>
+   <p className='m-0'>Parity</p>
     { 
          badges.map((element,i)=>{
             console.log(element.title);
             return (
-                    <div>
-                        <p>{element.title}</p>
-                        {
+                    
+                        
+                        
                             element.values?.map((ele,i)=>{
                                 console.log(ele.common);
-                                return <li key={i} className='badge bg-danger'>{ele.common}</li>
+                                return <li key={i} className='badge'>{ele.common}</li>
                             })
-                        }
-                    </div>
+                        
+                    
                 
                 )
         }) 
     }
    </ul>
+   
+  
+<div className='template  platform'>
+   <div className='ms-3'>
+<p className='m-0'>PlATFORM</p>
+<select id='collselect' class="form-select" aria-label="Default select example">
+    <option value="">Platform</option>
+</select>
+</div>
+
+</div>
+
    </div>
    </div>
    </>

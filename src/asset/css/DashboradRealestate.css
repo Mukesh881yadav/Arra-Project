@@ -1,0 +1,36 @@
+.freerealestte{
+    width:40%;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 35px;
+}
+.freerealestte div h3{
+    font-size:20px;
+    color: #8FF129;
+}
+.freerealestte-para{
+    font-size: 15px;
+}
+.freerealestte-secondtpara{
+    font-size: 15px;
+    margin: 0px;
+    color: #A4A4A4;
+}
+.freerealestte div input{
+ padding: 5px 10px;
+ border: 1px soli gray;
+ width: 70%;
+ margin-top: 20px;
+}
+.freerealestte div a{
+background-color: #8FF129;
+padding: 10px 35px;
+border-radius:4px;
+color: #fff;
+margin-left: 5px;
+}
+.freerealest-bottom p{
+font-size: 15px;
+color: #DCDCDC;
+}

@@ -1,0 +1,44 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.comcard-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.comcard{
+    width: 22%;
+    margin-left: 13px;
+}
+img{
+    width: 100%;
+}
+.comCardtitle{
+    font-size: 17px;
+}
+.comsubtitle{
+    font-size: 18px;
+    color: #DEDFE2;
+    margin-bottom: 10px;
+}
+.locationbadge{
+    background: #F4F4F5;
+    padding: 10px;
+    border-radius: 10px;
+}
+.locationbadge img{
+    width:10px;
+}
+.bottomcard{
+    border:1px solid #E5E5E8;
+    padding: 10px;
+}
+.browright-title:first-child{
+    font-size: 13px;
+    color: #0000;
+}
+.browright-title:nth-child(2){
+    font-size: 13px;
+    color: #B1B1B1;
+}

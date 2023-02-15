@@ -1,7 +1,7 @@
 import React from 'react' ;
 import '../asset/css/Leaderboard.css';
 import '../asset/css/PVPasset.css';
-import bgimg  from '../asset/img/Group 370.png';
+import bgimg  from '../asset/img/Rectangle 441.png';
 
 
 export default function Leaderboardterm() {
@@ -141,12 +141,9 @@ export default function Leaderboardterm() {
                   <td className='tabledata'>7.1K</td>
                 </tr>))
               }
-         
-            
           </tbody>
         </table>
       </div>
-
      </div> 
        })
 }

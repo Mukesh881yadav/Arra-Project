@@ -7,6 +7,7 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Leaderboard from './Pages/Leaderboard';
 import Dashboard from './Pages/Dashboard';
 import Community from './Pages/Community';
+import Browse from './Pages/Browse';
 import Tools from './Pages/Tools';
 
 
@@ -28,6 +29,7 @@ function App(){
       <Route path='/dashboard'element={<Dashboard/>}></Route>
       <Route path='/community'element={<Community/>}></Route>
       <Route path='/tool'element={<Tools/>}></Route>
+      <Route path='/browse'element={<Browse/>}></Route>
       
     </Routes>
     </div> 

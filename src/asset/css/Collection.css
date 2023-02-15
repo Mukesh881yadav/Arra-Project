@@ -2,8 +2,34 @@
     width: 100%;
 }
 .colletion-data{
-    margin-left:70px;
+    margin-left:0px;
+    justify-content:space-evenly;
+}
+
+.parity-data div ul{
+    display: flex;
+}
+.badge{
+    background-color: #DEDFE2;
+    color: #C7C8CA;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.platform{
+    width:15%;
 }
 .parity-data{
-    margin-left: 70px;
+    margin: 20px 25px;
+    display: flex;
+    align-items: center;
+}
+.collection-parent{
+    width: 87%;
+    margin: 0 auto;
+    background-color: #F4F4F5;
+    padding: 10px;
+    border-radius: 10px;
+}
+#collselect{
+    background: none;
 }

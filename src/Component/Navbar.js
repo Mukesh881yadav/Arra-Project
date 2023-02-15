@@ -6,7 +6,7 @@ import line from '../asset/img/Line 129.png'
 import { Link} from 'react-router-dom'
 // import { Link,NavLink } from 'react-router-dom'
 
-// import '../asset/css/Navbar.css'
+import '../asset/css/Navbar.css'
 export default function Navbar() {
   return (
    <> 
@@ -24,13 +24,13 @@ export default function Navbar() {
           <Link  to="/leaderboard"  className="nav-link" href="/leaderboard">Leaderboards</Link> 
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/community">Community</Link>
+          <Link className="nav-link" to="/browse ">Community</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/tool">Tools</Link>
+          <Link className="nav-link" to="amkmm">Tools</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Browse</a>
+          <Link className="nav-link" to="/community">Browse</Link>
         </li>
       </ul>
     <div className='d-flex align-items-center'>

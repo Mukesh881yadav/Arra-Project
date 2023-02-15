@@ -1,0 +1,29 @@
+.hoursbtn{
+    background: none;
+    color: gray;
+    border-radius: 20px;
+}
+.topgainers{
+    background: none;
+    color: gray;
+    border-radius: 20px;
+}
+.performannce-nav{
+    width: 525px;
+    margin: 0px 15px;
+}
+
+.tableimg img{
+    width: 25%;
+    height: 0%;  
+}
+/* .starimg{
+    width: 60%;
+    height: 0;
+} */
+.table th{
+    border-bottom: none;
+}
+.table td{
+    border-bottom: none;
+}
