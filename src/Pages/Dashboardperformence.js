@@ -125,7 +125,7 @@ let performanncedata=[
       <th scope="col">Price</th>
       <th scope="col">Chanee</th>
       <th scope="col">Market Cap</th>
-      <th scope="col">Watch</th>
+      {/* <th scope="col">Watch</th> */}
     </tr>
   </thead>
   <tbody>
