@@ -29,7 +29,7 @@ export default function PortfolioAsset() {
       btc:"1.25BTC",
       price:"$2,4506",
       physicalasset:"Physical Real Estate",
-      physicalassetvalue:"+0.34888%"
+      physicalassetvalue:"+0.34%"
     },
   ]
   return (

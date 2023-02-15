@@ -87,12 +87,12 @@ let performanncedata=[
 ]
 
   return (
-   <div>
+   <div className='main-performance'>
     <div className='performannce-nav d-flex justify-content-between'>
         <p>Performance</p>
         <div className='performannce-navbtn d-flex '>
         <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle hoursbtn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  <button class="btn btn-secondary dropdown-toggle hoursbtn me-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
   24 hrs
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
