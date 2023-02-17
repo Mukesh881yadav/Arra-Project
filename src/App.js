@@ -4,6 +4,7 @@ import Sidebar from './Component/Sidebar';
 import Navbar from './Component/Navbar';
 import Home from './Component/Home';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+// BrowserRouter basename={process.env.PUBLIC_URL}
 import Leaderboard from './Pages/Leaderboard';
 import Dashboard from './Pages/Dashboard';
 import Community from './Pages/Community';
