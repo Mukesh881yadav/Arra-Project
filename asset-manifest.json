@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Arra-Project/static/css/main.a16f41cb.css",
+    "main.js": "/Arra-Project/static/js/main.37a9b951.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Arra-Project/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Group 279.png": "/Arra-Project/static/media/Group 279.51cb1edf6c42052fc8a1.png",
+    "static/media/firstTopstories.png": "/Arra-Project/static/media/firstTopstories.1ff650c71f3cca350eb9.png",
+    "static/media/chairment.png": "/Arra-Project/static/media/chairment.39dd57957b6620024527.png",
+    "static/media/graph.png": "/Arra-Project/static/media/graph.19007d2d34669f4dc040.png",
+    "static/media/Group 371.png": "/Arra-Project/static/media/Group 371.3fac2a7f56660f8263e9.png",
+    "static/media/Group 372.png": "/Arra-Project/static/media/Group 372.32bef884d770b012a450.png",
+    "index.html": "/Arra-Project/index.html",
+    "main.a16f41cb.css.map": "/Arra-Project/static/css/main.a16f41cb.css.map",
+    "main.37a9b951.js.map": "/Arra-Project/static/js/main.37a9b951.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Arra-Project/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a16f41cb.css",
+    "static/js/main.37a9b951.js"
+  ]
+}
